@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thank You — Thirisoulyantra™</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #080808;
+      color: #ccc;
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px;
+    }
+    .symbol {
+      font-size: 48px;
+      margin-bottom: 32px;
+      opacity: 0.8;
+      animation: pulse 3s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50%       { opacity: 1;   transform: scale(1.08); }
+    }
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(20px, 4vw, 32px);
+      font-weight: 600;
+      letter-spacing: 6px;
+      color: #D4AF37;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 17px;
+      color: #888;
+      letter-spacing: 1px;
+      line-height: 1.8;
+      max-width: 480px;
+      margin: 0 auto 12px;
+    }
+    .divider {
+      width: 60px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #D4AF37, transparent);
+      margin: 28px auto;
+    }
+    .tagline {
+      font-family: 'Cinzel', serif;
+      font-size: 10px;
+      letter-spacing: 5px;
+      color: #D4AF37;
+      opacity: 0.45;
+      margin-bottom: 40px;
+    }
+    .back-btn {
+      font-family: 'Cinzel', serif;
+      font-size: 11px;
+      letter-spacing: 3px;
+      color: #D4AF37;
+      text-decoration: none;
+      border: 1px solid #D4AF3755;
+      padding: 12px 32px;
+      border-radius: 4px;
+      transition: all 0.3s;
+    }
+    .back-btn:hover {
+      background: #D4AF3715;
+      border-color: #D4AF37;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="symbol">🔱</div>
+
+  <h1>MESSAGE RECEIVED</h1>
+
+  <div class="divider"></div>
+
+  <p>Thank you for reaching out to <strong style="color:#D4AF37;">Thirisoulyantra™</strong>.</p>
+  <p>We have received your message and will get back to you within <strong style="color:#D4AF37;">24–48 hours</strong>.</p>
+  <p>A confirmation has been sent to your email.</p>
+
+  <div class="divider"></div>
+
+  <p class="tagline">SOUL · COSMOS · CLARITY</p>
+
+  <a class="back-btn" href="./index.html">← RETURN HOME</a>
+
+</body>
+</html>

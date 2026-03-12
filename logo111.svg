@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 70" width="380" height="70">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&amp;display=swap');
+    </style>
+    <!-- Warm cream/gold gradient matching the logo color -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#F0E0B0"/>
+      <stop offset="40%"  stop-color="#E8D5A0"/>
+      <stop offset="100%" stop-color="#C8B878"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Transparent background so it works on any dark bg -->
+  <rect width="380" height="70" fill="transparent"/>
+
+  <!-- Brand wordmark: lowercase, elegant serif -->
+  <text
+    x="0"
+    y="48"
+    font-family="'Playfair Display', 'Cormorant Garamond', 'EB Garamond', Georgia, serif"
+    font-size="36"
+    font-weight="400"
+    font-style="normal"
+    letter-spacing="1.5"
+    fill="url(#textGrad)"
+    text-anchor="start"
+    dominant-baseline="auto">thirisoulyantra</text>
+
+  <!-- TM superscript -->
+  <text
+    x="366"
+    y="26"
+    font-family="'Playfair Display', Georgia, serif"
+    font-size="11"
+    font-weight="400"
+    fill="#E8D5A0"
+    opacity="0.85"
+    text-anchor="start"
+    dominant-baseline="auto">™</text>
+
+</svg>
